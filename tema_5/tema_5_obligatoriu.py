@@ -37,7 +37,7 @@ def aria_cerc(raza):
     constanta_pi = 3.14
     aria_cerc = 3.14 * raza ** 2
     print(f'Aria cercului cu raza de {raza} este {aria_cerc}')
-    return raza
+    return aria_cerc
 
 
 # 6. Functie care returneaza True daca un caracter x se gaseste intr-un string dat. Fasle daca nu

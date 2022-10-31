@@ -35,6 +35,7 @@ class Angajat:
 
     def marire_salariu(self, procent):
         self.salariu =self.salariu + self.salariu*procent/100
+        return self.salariu
 
 
 

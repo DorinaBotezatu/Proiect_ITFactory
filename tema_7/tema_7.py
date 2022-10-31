@@ -26,7 +26,6 @@ class Patrat(FormaGeometrica):
     def del_latura(self):
         del self.__latura
 
-
     def aria(self):
         return self.__latura ** 2
 
@@ -48,10 +47,10 @@ class Cerc(FormaGeometrica):
         return self.PI*self.__raza ** 2
 
     def descrie(self):
-        print('Eu nu am colturi')
+       print('Eu nu am colturi')
 
 
-patrat = Patrat(10)
+"""patrat = Patrat(10)
 print(patrat.aria())
 print(patrat.get_latura())
 print(patrat.set_latura(15))
@@ -66,4 +65,4 @@ print(cerc.aria())
 print(cerc.set_raza(30))
 print(cerc.get_raza())
 print(cerc.del_raza())
-print(cerc.get_raza())
+print(cerc.get_raza())"""

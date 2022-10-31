@@ -25,7 +25,7 @@ class Cerc:
 
     def circumferinta(self):
         pi = 3.14
-        return f"Circumferinta cercului {2 * pi * self.raza}"
+        return 2 * pi * self.raza
 
 
 if __name__ == "__main__":
